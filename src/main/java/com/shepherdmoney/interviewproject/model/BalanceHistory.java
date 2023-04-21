@@ -25,5 +25,9 @@ public class BalanceHistory {
     private Instant date;
 
     private double balance;
-    
+
+    public BalanceHistory(Instant date, double balance) {
+        this.date = date;
+        this.balance = balance;
+    }
 }
